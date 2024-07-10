@@ -1,0 +1,312 @@
+.text-center {
+    text-align: center;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 14px;
+}
+
+.upper {
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    width: 1100px;
+    margin: 0% auto;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+
+.upper::before {
+    background-image: url('./smit form assig/photo-1541462608143-67571c6738dd.avif');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 20%;
+    position: absolute;
+    opacity: .1;
+    top: 0;
+    margin-top: 58px;
+    width: 81.5%;
+}
+
+
+.first-text {
+    color: #721c24 !important;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.second-text {
+    color: #721c24 !important;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.registration {
+    text-align: center;
+}
+
+.student-btn button {
+    align-items: center;
+    background-color: initial;
+    border-color: #0d6db7;
+    border-radius: 20px;
+    color: #0d6db7;
+    display: inline-block;
+    font-size: 14px;
+    justify-content: center;
+    outline: none;
+    padding: 6px;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.student-btn button a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.student-btn button:hover {
+    background-color: rgba(145, 223, 243, 0.137);
+}
+
+.program {
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.registration img {
+    width: 300px;
+}
+
+.pages {
+    display: flex;
+    text-align: center;
+}
+
+.social img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+
+.pages h1 {
+    margin: 0% auto;
+}
+
+.row {
+    text-align: center;
+}
+
+.navlist {
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    text-align: center;
+    width: 300px;
+    display: inline;
+
+}
+
+.navitem {
+    padding: 12px;
+    color: #0d6db7 !important;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    cursor: pointer;
+
+
+}
+
+.navitem1 {
+    color: #8dc63f;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    cursor: pointer;
+}
+
+
+.small-container a {
+    text-decoration: none;
+}
+
+.form {
+    border: 2px solid rgb(255, 252, 252);
+    margin-top: 20px;
+}
+
+.options {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.options input {
+    margin: 0px;
+    padding: 18px;
+    width: 400px;
+    border: 1px solid #8dc63f;
+    outline: none;
+    border-radius: 5px;
+}
+.options select  {
+    margin: 0px;
+    padding: 18px;
+    width: 438px;
+    border: 1px solid #8dc63f;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+.options input:focus {
+    border-color: #0d6db7 !important;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 255, 0.5);
+    transition: 0.2s;
+}
+.options select:focus {
+    border-color: #0d6db7 !important;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 255, 0.5);
+    transition: 0.2s;
+}
+
+.option2 input:focus {
+    border-color: #0d6db7 !important;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 255, 0.5);
+    transition: 0.2s;
+}
+.option2 select {
+    padding: 18px;
+    width: 889px;
+    border: 1px solid #8dc63f;
+    outline: none;
+    border-radius: 5px;
+
+}
+.option2 select:focus {
+    border-color: #0d6db7 !important;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 255, 0.5);
+    transition: 0.2s;
+}
+
+.option2 input {
+    padding: 18px;
+    width: 850px;
+    border: 1px solid #8dc63f;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.option2 {
+    display: flex;
+    justify-content: center;
+    color: #0d6db7;
+}
+
+.options label p {
+    color: #0d6db7;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 400px;
+}
+
+.custom-file-upload {
+    display: flex;
+    padding: 20px 40px;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    border: 1px dashed #d9d9d9;
+    font-size: small;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.custom-file-upload:hover {
+    border-color: #0d6db7;
+}
+
+.pic-text {
+    margin-left: 233px;
+    color: #0d6db7;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.lists ul {
+    list-style: none;
+    font-size: small;
+
+}
+
+.second-list {
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    font-size: small;
+    width: 60%;
+}
+
+.second-list li {
+    margin: 8px 0;
+}
+
+.last-btn {
+    background-color: #0d6db7;
+    border: none;
+    margin-left: 200px;
+    width: 950px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 14px;
+}
+
+/* This is second page of web */
+.download input {
+    margin: 0px;
+    padding: 19px;
+    width: 500px;
+    border: 1px solid #8dc63f;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.download {
+    text-align: center;
+    font-size: small;
+}
+
+.download p {
+    padding-right: 295px;
+    color: #0d6db7;
+    margin-top: 20px;
+
+}
+
+.download input:focus {
+    border-color: #0d6db7 !important;
+}
+
+.download button {
+    background-color: #0d6db7b0;
+    border: none;
+    width: 540px;
+    cursor: pointer;
+    color: white;
+    font-weight: 14px;
+    padding: 13px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* This is a third page of web */
+#roll-num {
+    padding-right: 470px;
+}
